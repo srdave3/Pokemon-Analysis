@@ -54,42 +54,6 @@ from raw data and ending with machine learning models and competitive team-build
 
 ---
 
-## Project Structure
-
-```
-pokemon-analysis/
-│
-├── pokemon.csv                  # Raw dataset
-├── pokemon_clean.csv            # Cleaned + feature-engineered dataset
-│
-├── 01_data_cleaning.py          # Data loading, cleaning, feature engineering
-├── 02_eda.py                    # Exploratory data analysis (20 insight sections)
-├── 03_visualizations.py         # 13 static charts (matplotlib + seaborn)
-├── 04_interactive.py            # 5 interactive HTML charts (plotly)
-├── 05_machine_learning.py       # KMeans clustering, PCA, Random Forest
-│
-├── pokemon_analysis.ipynb       # Full analysis in one Jupyter notebook
-│
-├── charts/                      # All generated chart PNGs
-│   ├── 01_bst_distribution.png
-│   ├── 02_bst_by_generation.png
-│   ├── 03_bst_by_type.png
-│   ├── 04_legendary_radar.png
-│   ├── 05_type_counts.png
-│   ├── 06_type_matchup_heatmap.png
-│   ├── 07_correlation_heatmap.png
-│   ├── 08_bst_boxplot_generation.png
-│   ├── 09_evolution_jumps.png
-│   ├── 10_offensive_vs_defensive.png
-│   ├── 11_speed_tiers.png
-│   ├── 12_catch_difficulty_bst.png
-│   ├── 13_stat_specialization.png
-│   └── 14_cluster_role_scatter.png
-│
-├── .gitignore
-└── README.md
-```
-
 ---
 
 ## Setup & Installation
